@@ -17,11 +17,14 @@ export default {
         },
         accent: {
           light: '#d69e2e',
-          dark: '#23d59d'
+          dark: '#24ebac'
+        },
+        textColorDark: {
+          primary: 'hsl(219, 4%, 55%)'
         }
       },
       fontFamily: {
-        nunito: ['Nunito', 'sans-serif']
+        inter: ['Inter', 'sans-serif']
       }
     }
   },

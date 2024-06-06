@@ -1,12 +1,13 @@
 import { Layout } from '../../components'
+import { Hero } from '../../sections'
+import './home.css'
 
 export const HomePage = () => {
   return (
     <Layout>
-      <div className='max-w-[1120px] min-h-screen m-auto bg-primary-dark'>
-        <p>holaaaa</p>
-
-      </div>
+      <section>
+        <Hero />
+      </section>
     </Layout>
   )
 }

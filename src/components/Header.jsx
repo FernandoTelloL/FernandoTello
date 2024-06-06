@@ -8,10 +8,9 @@ export const Header = () => {
   }
 
   return (
-    <header className='bg-gray-800 text-white sticky top-0 z-50'>
-      <div className='container mx-auto flex justify-between items-center p-4'>
-        <div className='text-lg font-bold'>FernandoT-Dev</div>
-        <nav className='hidden md:flex space-x-4'>
+    <header className=' sticky top-0 z-50'>
+      <div className='container mx-auto flex justify-end items-center p-4 transition-all'>
+        <nav className='hidden md:flex space-x-4 transition-all'>
           <a href='#inicio' className='hover:text-gray-400'>Inicio</a>
           <a href='#nosotros' className='hover:text-gray-400'>Nosotros</a>
         </nav>
@@ -30,7 +29,7 @@ export const Header = () => {
         </div>
       </div>
       {isMenuOpen && (
-        <div className='md:hidden absolute top-16 left-0 w-full bg-gray-800 p-4'>
+        <div className='md:hidden absolute top-16 left-0 w-full bg-gray-800 p-4 transition-all'>
           <a href='#inicio' className='block py-2 px-4 hover:bg-gray-700 rounded'>Inicio</a>
           <a href='#nosotros' className='block py-2 px-4 hover:bg-gray-700 rounded'>Nosotros</a>
         </div>
