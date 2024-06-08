@@ -1,16 +1,17 @@
 import { Layout } from '../../components'
-import { About, Hero } from '../../sections'
+import { About, Hero, Projects, Works } from '../../sections'
 import './home.css'
 
 export const HomePage = () => {
   return (
     <Layout>
-      <section>
-        <Hero />
-      </section>
-      <section>
-        <About />
-      </section>
+      <Hero />
+
+      <About />
+
+      <Projects />
+
+      <Works />
     </Layout>
   )
 }

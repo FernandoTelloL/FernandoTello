@@ -6,7 +6,7 @@ import { Header } from './Header'
 export const Layout = ({ children }) => {
   return (
     <div className='bg-primary-dark text-textColorDark-primary font-inter'>
-      <div className=' md:max-w-[1100px] w-[80dvw] m-auto'>
+      <div className='w-full mx-auto container lg:max-w-4xl md:max-w-2xl'>
         <Header />
         <main className=''>
           {children}

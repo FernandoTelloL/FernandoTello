@@ -8,19 +8,26 @@ export default {
     extend: {
       colors: {
         primary: {
-          light: 'hsl(219, 15%, 95%)',
-          dark: '#0b111e'
+          light: '#f8f9fa',
+          dark: '#011627'
+          // dark: '#031a35'
         },
         secondary: {
-          light: '#babeb4',
-          dark: '#151C28'
+          light: '#b0bec5',
+          dark: '#121C2C'
         },
         accent: {
           light: '#d69e2e',
-          dark: '#24ebac'
+          dark: '#00bcd4'
         },
         textColorDark: {
-          primary: 'hsl(219, 4%, 55%)'
+          primary: '#cfd8dc'
+        },
+        textColorLight: {
+          primary: '#011627'
+        },
+        borderColorDark: {
+          primary: '#546e7a'
         }
       },
       fontFamily: {

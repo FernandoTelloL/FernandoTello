@@ -8,8 +8,8 @@ export const Header = () => {
   }
 
   return (
-    <header className=' sticky top-0 z-50'>
-      <div className='container mx-auto flex justify-end items-center p-4 transition-all'>
+    <header className='container sticky top-0 z-50 sm:h-16 bg-red-500'>
+      <div className='container mx-auto flex justify-end items-center p-4 transition-all h-full bg-primary-dark'>
         <nav className='hidden md:flex space-x-4 transition-all'>
           <a href='#inicio' className='hover:text-gray-400'>Inicio</a>
           <a href='#nosotros' className='hover:text-gray-400'>Nosotros</a>
@@ -17,9 +17,8 @@ export const Header = () => {
         <div className='md:hidden'>
           <button onClick={toggleMenu} className='focus:outline-none'>
             <svg
-              className='w-6 h-6'
+              className='w-6 h-6 text-accent-dark stroke-current'
               fill='none'
-              stroke='currentColor'
               viewBox='0 0 24 24'
               xmlns='http://www.w3.org/2000/svg'
             >
