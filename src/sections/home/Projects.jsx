@@ -3,7 +3,7 @@ export const Projects = () => {
     <section
       id='proyectos'
       data-section='proyectos'
-      className='section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl'
+      className='scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl my-24'
     >
       <h2 className='flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white'>
         <svg
@@ -26,20 +26,24 @@ export const Projects = () => {
         Proyectos
       </h2>
       <div className='flex flex-col gap-y-16'>
+
         {/* <!-- Proyecto 1 --> */}
         <article className='flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0'>
           <div className='w-full md:w-1/2'>
             <div className='relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50'>
-              <img alt='Recién llegado vs 5 años en Nueva Zelanda' className='object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105' loading='lazy' src='/projects/svgl.webp' />
+              <img alt='Recién llegado vs 5 años en Nueva Zelanda' className='object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105' loading='lazy' src='./img/bloggio.jpg' />
             </div>
           </div>
           <div className='w-full md:w-1/2 md:max-w-lg'>
-            <h3 className='text-2xl font-bold text-gray-800 dark:text-gray-100'>SVGL - A beautiful library with SVG logos</h3>
+            <h3 className='text-2xl font-bold text-gray-800 dark:text-gray-100'>Bloggio</h3>
             <div className='flex flex-wrap mt-2'>
               <ul className='flex flex-row mb-2 gap-x-2'>
+
                 <li>
                   <span className='flex gap-x-2 rounded-full text-xs bg-black text-white py-1 px-2'>
-                    <svg className='size-4' xmlns='http://www.w3.org/2000/svg' width='256' height='256' preserveAspectRatio='xMidYMid' viewBox='0 0 256 256'>
+
+                    {/* inicio svg de nextjs */}
+                    {/* <svg className='size-4' xmlns='http://www.w3.org/2000/svg' width='256' height='256' preserveAspectRatio='xMidYMid' viewBox='0 0 256 256'>
                       <defs>
                         <linearGradient id='c' x1='55.633%' x2='83.228%' y1='56.385%' y2='96.08%'>
                           <stop offset='0%' stopColor='#FFF' />
@@ -59,10 +63,12 @@ export const Projects = () => {
                         <path fill='url(#c)' d='M212.634 224.028 98.335 76.8H76.8v102.357h17.228V98.68L199.11 234.446a128.433 128.433 0 0 0 13.524-10.418Z' />
                         <path fill='url(#d)' d='M163.556 76.8h17.067v102.4h-17.067z' />
                       </g>
-                    </svg>
-                    Next.js
+                    </svg> */}
+                    {/* fin svg de nextjs */}
+                    React
                   </span>
                 </li>
+
                 <li>
                   <span className='flex gap-x-2 rounded-full text-xs bg-[#003159] text-white py-1 px-2'>
                     <svg className='size-4' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 54 33'>
@@ -80,17 +86,17 @@ export const Projects = () => {
                 </li>
               </ul>
               <div className='mt-2 text-gray-700 dark:text-gray-400'>
-                Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.
+                Proyecto de blog hecho en colaboración, mi trabajo fue hacer todo el front mientras mis compañeros crearon el backend utilizando Spring boot y PostgreSQL.
               </div>
               <footer className='flex items-end justify-start mt-4 gap-x-4'>
-                <a href='https://github.com/pheralb/svgl' role='link' className='inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'>
+                <a href='https://github.com/FernandoTelloL/bloggio' role='link' className='inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'>
                   <svg className='size-6' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' strokeWidth='2' stroke='currentColor' fill='none' strokeLinecap='round' strokeLinejoin='round'>
                     <path stroke='none' d='M0 0h24v24H0z' fill='none' />
                     <path d='M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.5 1 -.5 2v3.5' />
                   </svg>
                   Ver en Github
                 </a>
-                <a href='https://svglogos.vercel.app' role='link' className='inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'>
+                <a href='https://bloggio-web.onrender.com/' role='link' className='inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'>
                   <svg className='size-6' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth='1.5' stroke='currentColor'>
                     <path strokeLinecap='round' strokeLinejoin='round' d='M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0 -2.25 2.25V9m10.5 0v9A2.25 2.25 0 0 1 16.5 20.25H7.5a2.25 2.25 0 0 1 -2.25 -2.25V9m10.5 0h-9' />
                   </svg>
@@ -103,7 +109,7 @@ export const Projects = () => {
         {/* <!-- Fin de Proyecto 1 --> */}
 
         {/* <!-- Proyecto 2 --> */}
-        <article className='flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0'>
+        {/* <article className='flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0'>
           <div className='w-full md:w-1/2'>
             <div className='relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50'>
               <img alt='Recién llegado vs 5 años en Nueva Zelanda' className='object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105' loading='lazy' src='/projects/adventjs.webp' />
@@ -169,7 +175,7 @@ export const Projects = () => {
               </footer>
             </div>
           </div>
-        </article>
+        </article> */}
         {/* <!-- Fin de Proyecto 2 --> */}
 
       </div>
