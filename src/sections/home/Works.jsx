@@ -93,7 +93,7 @@ export const Works = () => {
               </div>
             </div>
 
-            <div className='relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3'>
+            <div className='relative flex flex-col gap-2 pb-4 md:col-span-3'>
               Encargado del mantenimiento preventivo y correctivo de equipos cómputo, supervisar la conexión de red, crear y dar mantenimiento a páginas web institucionales, crear nuevos sistemas de información y mantener los sistemas existentes.
             </div>
           </div>

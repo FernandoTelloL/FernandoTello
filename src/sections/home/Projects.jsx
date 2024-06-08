@@ -85,7 +85,7 @@ export const Projects = () => {
                   </span>
                 </li>
               </ul>
-              <div className='mt-2 text-gray-700 dark:text-gray-400'>
+              <div className='mt-2'>
                 Proyecto de blog hecho en colaboración, mi trabajo fue hacer todo el front mientras mis compañeros crearon el backend utilizando Spring boot y PostgreSQL.
               </div>
               <footer className='flex items-end justify-start mt-4 gap-x-4'>
