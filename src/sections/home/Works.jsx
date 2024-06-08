@@ -84,10 +84,10 @@ export const Works = () => {
                 <h3 className='text-xl font-bold text-accent-dark'>
                   Asistente de Unidad de Tecnología de la Información
                 </h3>
-                <h4 className='font-semibold text-xl text-gray-600 dark:text-white'>
+                <h4 className='font-semibold text-xl e'>
                   Municipalidad Distrital de Chicama
                 </h4>
-                <time className='p-0 m-0 text-sm text-gray-600/80 dark:text-white/80'>
+                <time className='p-0 m-0 text-sm 0'>
                   Enero 2022 - Diciembre 2022
                 </time>
               </div>
