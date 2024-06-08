@@ -1,5 +1,9 @@
 export const Footer = () => {
   return (
-    <h1 className='text-2xl'>Footer</h1>
+    <footer className='text-center text-sm text-textColorDark-primary'>
+      <p className='py-8'>
+        Hecho con ❤️ por <span className='text-accent-dark'>Fernando Tello León</span>. Casi todos los derechos reservados.
+      </p>
+    </footer>
   )
 }
