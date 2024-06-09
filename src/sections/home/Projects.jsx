@@ -5,7 +5,7 @@ export const Projects = () => {
       data-section='proyectos'
       className='scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl my-24'
     >
-      <h2 className='flex items-center mb-6 text-3xl font-semibold gap-x-3'>
+      <h2 className='flex items-center mb-10 text-3xl font-semibold gap-x-3'>
         <svg
           className='size-7'
           xmlns='http://www.w3.org/2000/svg'
