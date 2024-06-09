@@ -1,5 +1,5 @@
 import { Layout } from '../../components'
-import { About, Hero, Projects, Works } from '../../sections'
+import { About, Hero, Projects, Skills, Works } from '../../sections'
 import './home.css'
 
 export const HomePage = () => {
@@ -12,6 +12,8 @@ export const HomePage = () => {
       <Projects />
 
       <Works />
+
+      <Skills />
     </Layout>
   )
 }
