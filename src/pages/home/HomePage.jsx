@@ -7,13 +7,13 @@ export const HomePage = () => {
     <Layout>
       <Hero />
 
-      <About />
-
       <Projects />
 
       <Works />
 
       <Skills />
+
+      <About />
     </Layout>
   )
 }
