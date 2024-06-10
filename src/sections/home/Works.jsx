@@ -78,7 +78,7 @@ export const Works = () => {
           <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4">
             <div className='relative pb-12 md:col-span-2'>
               <div className='sticky top-0'>
-                <span className='text-accent-dark -left-[42px] absolute rounded-full text-5xl'>
+                <span className='text-accent-dark -left-[47px] absolute rounded-full text-5xl'>
                   •
                 </span>
                 <h3 className='text-xl font-bold text-accent-dark'>
