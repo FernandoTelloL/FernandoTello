@@ -13,7 +13,7 @@ export const Hero = () => {
         <h2 className='text-2xl text-accent-dark sm:text-3xl'>Full Stack Developer</h2>
       </section>
 
-      <section className='flex items-center justify-center w-full'>
+      <section className='flex items-center justify-center w-full mt-1'>
         <DownloadButton />
 
         <p className='text-xs border rounded-full px-2 py-2 leading-3 bg-accent-dark/10 border-accent-dark text-textColorDark-primary ml-4'> fernando_tellol@hotmail.com</p>
