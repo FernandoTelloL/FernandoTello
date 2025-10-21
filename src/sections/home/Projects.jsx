@@ -100,12 +100,13 @@ export const Projects = () => {
               </ul>
 
               <footer className='flex flex-col space-y-3 w-full mt-6 text-sm mb-4 '>
-                <div className='flex flex-col sm:flex-row sm:justify-between space-y-4 sm:space-y-0  sm:flex-nowrap'>
+                <div className='flex flex-col w-full'>
                   <a
                     href='https://github.com/FernandoTelloL/bloggio'
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
+                    style={{ display: 'none' }}
                     className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
@@ -129,7 +130,7 @@ export const Projects = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
-                    className='min-w-full sm:min-w-[45%] md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -254,12 +255,13 @@ export const Projects = () => {
               </ul>
 
               <footer className='flex flex-col space-y-3 w-full mt-6 text-sm mb-4 '>
-                <div className='flex flex-col sm:flex-row sm:justify-between space-y-4 sm:space-y-0  sm:flex-nowrap'>
+                <div className='flex flex-col w-full'>
                   <a
                     href='https://github.com/FernandoTelloL/web-juegos-educativos'
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
+                    style={{ display: 'none' }}
                     className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
@@ -283,7 +285,7 @@ export const Projects = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
-                    className='min-w-full sm:min-w-[45%] md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -407,12 +409,13 @@ export const Projects = () => {
               </ul>
 
               <footer className='flex flex-col space-y-3 w-full mt-4 text-sm mb-4 '>
-                <div className='flex flex-col sm:flex-row sm:justify-between space-y-4 sm:space-y-0  sm:flex-nowrap'>
+                <div className='flex flex-col w-full'>
                   <a
                     href='https://github.com/FernandoTelloL/landing-seguridad-ciudadana-chimbote'
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
+                    style={{ display: 'none' }}
                     className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
@@ -436,7 +439,7 @@ export const Projects = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
-                    className='min-w-full sm:min-w-[45%] md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'

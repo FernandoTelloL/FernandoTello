@@ -27,6 +27,30 @@ export const Works = () => {
       </h2>
 
       <ol className='relative mt-16'>
+        {/* trabajo 1 nuevo */}
+        <li>
+          <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4">
+            <div className='relative pb-12 md:col-span-2'>
+              <div className='sticky top-0'>
+                <span className='text-accent-dark -left-[47px] absolute rounded-full text-5xl'>
+                  •
+                </span>
+                <h3 className='text-xl font-bold text-accent-dark'>
+                  FrontEnd Developer
+                </h3>
+                <h4 className='font-semibold text-base'>
+                  Jassgroup TICS, Chimbote
+                </h4>
+                <p className='p-0 m-0 text-sm'>Enero 2023 — Diciembre 2024</p>
+              </div>
+            </div>
+
+            <div className='relative flex flex-col gap-2 pb-4 md:col-span-3'>
+              Como FrontEnd Developer en Jassgroup TICS, participé activamente en el desarrollo de aplicaciones web y móviles. Utilicé tecnologías modernas como React JS para crear interfaces de usuario dinámicas y responsivas, integrando Tailwind CSS y Sass para estilos eficientes y mantenibles. Implementé flujos de trabajo con Gitflow para una gestión de versiones efectiva, y colaboré en equipos utilizando herramientas como Jira para la gestión de proyectos y GitHub para el control de versiones. Además, contribuí en proyectos con React Native y Expo, desarrollando aplicaciones móviles nativas para plataformas iOS y Android, trabajando en entornos de equipo para asegurar la calidad y entrega oportuna de los productos.
+            </div>
+          </div>
+        </li>
+
         {/* trabajo 1 */}
         <li>
           <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4">
