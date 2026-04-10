@@ -27,6 +27,30 @@ export const Works = () => {
       </h2>
 
       <ol className='relative mt-16'>
+        {/* trabajo 0 */}
+        <li>
+          <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4">
+            <div className='relative pb-12 md:col-span-2'>
+              <div className='sticky top-0'>
+                <span className='text-accent-dark -left-[47px] absolute rounded-full text-5xl'>
+                  •
+                </span>
+                <h3 className='text-xl font-bold text-accent-dark'>
+                  Mobile Developer React Native
+                </h3>
+                <h4 className='font-semibold text-base'>
+                  Nuevas Tecnologias SAC
+                </h4>
+                <p className='p-0 m-0 text-sm'>Febrero 2025 — Diciembre 2025</p>
+              </div>
+            </div>
+
+            <div className='relative flex flex-col gap-2 pb-4 md:col-span-3'>
+              Desarrollo de una aplicación móvil multiplataforma orientada a la gestión de trabajadores y oportunidades laborales, utilizando React Native, TypeScript y Expo. Implementé una arquitectura limpia basada en módulos y principios SOLID, además de flujos de registro y autenticación, perfiles laborales, búsqueda por geolocalización, integración con API REST, mapas con Google Maps, estado global con Zustand, una interfaz responsive con NativeWind alineada a Figma, trabajo colaborativo con Scrum y Git Flow, pruebas unitarias con Jest y generación de APK para validación interna.
+            </div>
+          </div>
+        </li>
+
         {/* trabajo 1 nuevo */}
         <li>
           <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4">
@@ -94,7 +118,7 @@ export const Works = () => {
                 <h4 className='font-semibold text-base'>
                   Municipalidad Distrital de Chicama
                 </h4>
-                <p className='p-0 m-0 text-sm 0'>Enero 2022 - Diciembre 2022</p>
+                <p className='p-0 m-0 text-sm'>Enero 2022 - Diciembre 2022</p>
               </div>
             </div>
 
