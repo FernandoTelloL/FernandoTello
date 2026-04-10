@@ -27,6 +27,98 @@ export const Projects = () => {
       </h2>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
+        {/* <!-- Proyecto nuevo --> */}
+        <article className='flex flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
+          <div className='w-full mt-4'>
+            <div className='overflow-clip rounded-xl '>
+              <img
+                alt='Plataforma Trust Balance para gestión contable'
+                className='object-cover w-full h-56 transition duration-500 sm:h-full md:scale-110'
+                src='./img/trust-balance.png'
+              />
+            </div>
+          </div>
+          <div className='w-full space-y-4 group'>
+            <h3 className='text-2xl font-bold '>
+              Trust Balance - Plataforma Contable
+            </h3>
+
+            <div className='flex flex-wrap'>
+              <div className=''>
+                Plataforma web para contadores y estudios contables con landing page y dashboard de trabajo con clientes. Participé en el equipo de Frontend desarrollando con TypeScript y una arquitectura limpia enfocada en módulos, mientras otro equipo se encargó del backend con Nest. El sistema integra procesos de scraping con instituciones del Estado como SUNAT y SUNAFIL para centralizar operaciones contables.
+              </div>
+
+              <ul className='flex flex-row my-3 gap-x-2'>
+                <li>
+                  <span className='flex gap-x-2 rounded-full text-xs bg-slate-800 text-white py-1 px-2'>
+                    React
+                  </span>
+                </li>
+
+                <li>
+                  <span className='flex gap-x-2 rounded-full text-xs bg-[#3178c6] text-white py-1 px-2'>
+                    TypeScript
+                  </span>
+                </li>
+              </ul>
+
+              <footer className='flex flex-col space-y-3 w-full mt-4 text-sm mb-4 '>
+                <div className='flex flex-col w-full'>
+                  <a
+                    href='https://trust-balance.vercel.app'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    role='link'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                  >
+                    <svg
+                      className='w-6 h-6 md:w-4 md:h-4'
+                      xmlns='http://www.w3.org/2000/svg'
+                      viewBox='0 0 24 24'
+                      strokeWidth='1.5'
+                      stroke='currentColor'
+                      fill='none'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        d='M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0 -2.25 2.25V9m10.5 0v9A2.25 2.25 0 0 1 16.5 20.25H7.5a2.25 2.25 0 0 1 -2.25 -2.25V9m10.5 0h-9'
+                      />
+                    </svg>
+                    Visitar el sitio
+                  </a>
+                </div>
+
+                <a
+                  href='#'
+                  role='link'
+                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                >
+                  <svg
+                    className='w-6 h-6 md:w-4 md:h-4'
+                    xmlns='http://www.w3.org/2000/svg'
+                    viewBox='0 0 24 24'
+                    strokeWidth='1.5'
+                    stroke='currentColor'
+                    fill='none'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      d='M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0 -2.25 2.25V9m10.5 0v9A2.25 2.25 0 0 1 16.5 20.25H7.5a2.25 2.25 0 0 1 -2.25 -2.25V9m10.5 0h-9'
+                    />
+                  </svg>
+                  Ver más detalles del proyecto
+                </a>
+              </footer>
+            </div>
+          </div>
+        </article>
+
         {/* <!-- Proyecto 0 --> */}
         <article className='flex flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
           <div className='w-full mt-4'>
