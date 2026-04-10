@@ -28,7 +28,7 @@ export const Projects = () => {
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
         {/* <!-- Proyecto nuevo --> */}
-        <article className='flex flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
+        <article className='flex h-full flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
           <div className='w-full mt-4'>
             <div className='relative overflow-clip rounded-xl '>
               <img
@@ -41,12 +41,12 @@ export const Projects = () => {
               </span>
             </div>
           </div>
-          <div className='w-full space-y-4 group'>
+          <div className='w-full space-y-4 group flex flex-col flex-1'>
             <h3 className='text-2xl font-bold '>
               Trust Balance - Plataforma Contable
             </h3>
 
-            <div className='flex flex-wrap'>
+            <div className='flex flex-col h-full'>
               <div className=''>
                 Plataforma web en proceso para contadores y estudios contables con landing page y dashboard de trabajo con clientes. Participé en el equipo de Frontend desarrollando con TypeScript y una arquitectura limpia enfocada en módulos, mientras otro equipo se encargó del backend con Nest. El sistema integra procesos de scraping con instituciones del Estado como SUNAT y SUNAFIL para centralizar operaciones contables.
               </div>
@@ -65,14 +65,14 @@ export const Projects = () => {
                 </li>
               </ul>
 
-              <footer className='flex flex-col space-y-3 w-full mt-4 text-sm mb-4 '>
+              <footer className='flex flex-col space-y-3 w-full mt-auto pt-4 text-sm mb-4 '>
                 <div className='flex flex-col w-full'>
                   <a
                     href='https://trust-balance.vercel.app'
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
-                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -97,7 +97,7 @@ export const Projects = () => {
                 <a
                   href='#'
                   role='link'
-                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                 >
                   <svg
                     className='w-6 h-6 md:w-4 md:h-4'
@@ -123,7 +123,7 @@ export const Projects = () => {
         </article>
 
         {/* <!-- Proyecto 0 --> */}
-        <article className='flex flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
+        <article className='flex h-full flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
           <div className='w-full mt-4'>
             <div className='overflow-clip rounded-xl '>
               <img
@@ -133,12 +133,12 @@ export const Projects = () => {
               />
             </div>
           </div>
-          <div className='w-full space-y-4 group'>
+          <div className='w-full space-y-4 group flex flex-col flex-1'>
             <h3 className='text-2xl font-bold '>
               Luis Tello SG - Construcción y Remodelación
             </h3>
 
-            <div className='flex flex-wrap'>
+            <div className='flex flex-col h-full'>
               <div className=''>
                 Landing page desarrollada para un cliente del rubro de construcción y remodelación de casas y departamentos. La propuesta se enfocó en presentar sus servicios, mostrar proyectos destacados, reforzar la confianza comercial y guiar al usuario hacia el contacto de forma clara y visualmente atractiva.
               </div>
@@ -194,14 +194,14 @@ export const Projects = () => {
                 </li>
               </ul>
 
-              <footer className='flex flex-col space-y-3 w-full mt-4 text-sm mb-4 '>
+              <footer className='flex flex-col space-y-3 w-full mt-auto pt-4 text-sm mb-4 '>
                 <div className='flex flex-col w-full'>
                   <a
                     href='https://luis-tello-sg.vercel.app'
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
-                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -226,7 +226,7 @@ export const Projects = () => {
                 <a
                   href='#'
                   role='link'
-                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                 >
                   <svg
                     className='w-6 h-6 md:w-4 md:h-4'
@@ -252,7 +252,7 @@ export const Projects = () => {
         </article>
 
         {/* <!-- Proyecto 1 --> */}
-        <article className='flex flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
+        <article className='flex h-full flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
           <div className='w-full mt-4'>
             <div className='overflow-clip rounded-xl '>
               <img
@@ -262,10 +262,10 @@ export const Projects = () => {
               />
             </div>
           </div>
-          <div className='w-full space-y-4 group'>
+          <div className='w-full space-y-4 group flex flex-col flex-1'>
             <h3 className='text-2xl font-bold '>Bloggio</h3>
 
-            <div className='flex flex-wrap'>
+            <div className='flex flex-col h-full'>
               <div className=''>
                 Proyecto de blog hecho en colaboración, mi trabajo fue hacer
                 todo el front mientras mis compañeros crearon el backend
@@ -323,7 +323,7 @@ export const Projects = () => {
                 </li>
               </ul>
 
-              <footer className='flex flex-col space-y-3 w-full mt-6 text-sm mb-4 '>
+              <footer className='flex flex-col space-y-3 w-full mt-auto pt-4 text-sm mb-4 '>
                 <div className='flex flex-col w-full'>
                   <a
                     href='https://github.com/FernandoTelloL/bloggio'
@@ -331,7 +331,7 @@ export const Projects = () => {
                     rel='noopener noreferrer'
                     role='link'
                     style={{ display: 'none' }}
-                    className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -354,7 +354,7 @@ export const Projects = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
-                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -379,7 +379,7 @@ export const Projects = () => {
                 <a
                   href='#'
                   role='link'
-                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                 >
                   <svg
                     className='w-6 h-6 md:w-4 md:h-4'
@@ -406,7 +406,7 @@ export const Projects = () => {
         {/* <!-- Fin de Proyecto 1 --> */}
 
         {/* <!-- Proyecto 2 --> */}
-        <article className='flex flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
+        <article className='flex h-full flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
           <div className='w-full mt-4'>
             <div className='overflow-clip rounded-xl '>
               <img
@@ -416,12 +416,12 @@ export const Projects = () => {
               />
             </div>
           </div>
-          <div className='w-full space-y-4 group'>
+          <div className='w-full space-y-4 group flex flex-col flex-1'>
             <h3 className='text-2xl font-bold '>
               Juegos Educativos I.E. El Porvenir
             </h3>
 
-            <div className='flex flex-wrap'>
+            <div className='flex flex-col h-full'>
               <div className=''>
                 Portal de juegos educativos creado para el nivel primario de la
                 I.E. El Porvenir - 20832 - Pativilca.
@@ -478,7 +478,7 @@ export const Projects = () => {
                 </li>
               </ul>
 
-              <footer className='flex flex-col space-y-3 w-full mt-6 text-sm mb-4 '>
+              <footer className='flex flex-col space-y-3 w-full mt-auto pt-4 text-sm mb-4 '>
                 <div className='flex flex-col w-full'>
                   <a
                     href='https://github.com/FernandoTelloL/web-juegos-educativos'
@@ -486,7 +486,7 @@ export const Projects = () => {
                     rel='noopener noreferrer'
                     role='link'
                     style={{ display: 'none' }}
-                    className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -509,7 +509,7 @@ export const Projects = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
-                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -534,7 +534,7 @@ export const Projects = () => {
                 <a
                   href='#'
                   role='link'
-                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                 >
                   <svg
                     className='w-6 h-6 md:w-4 md:h-4'
@@ -561,7 +561,7 @@ export const Projects = () => {
         {/* <!-- Fin de Proyecto 2 --> */}
 
         {/* <!-- Proyecto 3 --> */}
-        <article className='flex flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
+        <article className='flex h-full flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
           <div className='w-full mt-4'>
             <div className='overflow-clip rounded-xl '>
               <img
@@ -571,10 +571,10 @@ export const Projects = () => {
               />
             </div>
           </div>
-          <div className='w-full space-y-4 group'>
+          <div className='w-full space-y-4 group flex flex-col flex-1'>
             <h3 className='text-2xl font-bold '>WebSite Seguridad Ciudadana</h3>
 
-            <div className='flex flex-wrap'>
+            <div className='flex flex-col h-full'>
               <div className=''>
                 Website de Seguridad Ciudadana de la Municipalidad de Chimbote,
                 creado para mantener al ciudadano informado y comunicado a
@@ -632,7 +632,7 @@ export const Projects = () => {
                 </li>
               </ul>
 
-              <footer className='flex flex-col space-y-3 w-full mt-4 text-sm mb-4 '>
+              <footer className='flex flex-col space-y-3 w-full mt-auto pt-4 text-sm mb-4 '>
                 <div className='flex flex-col w-full'>
                   <a
                     href='https://github.com/FernandoTelloL/landing-seguridad-ciudadana-chimbote'
@@ -640,7 +640,7 @@ export const Projects = () => {
                     rel='noopener noreferrer'
                     role='link'
                     style={{ display: 'none' }}
-                    className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='md:text-[10px] min-w-full sm:min-w-[45%] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit md:w-auto sm:w-1/2 rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -663,7 +663,7 @@ export const Projects = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
-                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                    className='w-full md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                   >
                     <svg
                       className='w-6 h-6 md:w-4 md:h-4'
@@ -688,7 +688,7 @@ export const Projects = () => {
                 <a
                   href='#'
                   role='link'
-                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
+                  className='md:text-[10px] sm:text-xs inline-flex items-center justify-center gap-2 px-3 py-1.5 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit sm: min-w-full rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black'
                 >
                   <svg
                     className='w-6 h-6 md:w-4 md:h-4'
