@@ -126,7 +126,7 @@ export const Projects = () => {
                   </a>
 
                   <a
-                    href='https://bloggio-web.onrender.com/'
+                    href='https://bloggio.vercel.app'
                     target='_blank'
                     rel='noopener noreferrer'
                     role='link'
