@@ -30,12 +30,15 @@ export const Projects = () => {
         {/* <!-- Proyecto nuevo --> */}
         <article className='flex flex-col group space-y-4 border-accent-dark/15 border-2 border-solid border-opacity-10 rounded-xl p-4'>
           <div className='w-full mt-4'>
-            <div className='overflow-clip rounded-xl '>
+            <div className='relative overflow-clip rounded-xl '>
               <img
                 alt='Plataforma Trust Balance para gestión contable'
                 className='object-cover w-full h-56 transition duration-500 sm:h-full md:scale-110'
                 src='./img/trust-balance.png'
               />
+              <span className='absolute right-[-34px] top-4 rotate-45 border border-amber-200/60 bg-amber-500/80 px-10 py-1 text-[10px] font-bold uppercase tracking-wider text-amber-50 shadow-sm'>
+                En proceso
+              </span>
             </div>
           </div>
           <div className='w-full space-y-4 group'>
@@ -45,7 +48,7 @@ export const Projects = () => {
 
             <div className='flex flex-wrap'>
               <div className=''>
-                Plataforma web para contadores y estudios contables con landing page y dashboard de trabajo con clientes. Participé en el equipo de Frontend desarrollando con TypeScript y una arquitectura limpia enfocada en módulos, mientras otro equipo se encargó del backend con Nest. El sistema integra procesos de scraping con instituciones del Estado como SUNAT y SUNAFIL para centralizar operaciones contables.
+                Plataforma web en proceso para contadores y estudios contables con landing page y dashboard de trabajo con clientes. Participé en el equipo de Frontend desarrollando con TypeScript y una arquitectura limpia enfocada en módulos, mientras otro equipo se encargó del backend con Nest. El sistema integra procesos de scraping con instituciones del Estado como SUNAT y SUNAFIL para centralizar operaciones contables.
               </div>
 
               <ul className='flex flex-row my-3 gap-x-2'>
